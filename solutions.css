@@ -21,3 +21,22 @@
 .ex-5-square:active {
     transform: scale(0)
 }
+
+.ex-6-img:hover {
+    filter: grayscale(2)
+}
+
+.ex-7-img:hover {
+    filter: blur(5px) grayscale(2);
+}
+
+.ex-8-img:hover {
+    filter: blur(5px) contrast(200%);
+    border-radius: 15px;
+}
+
+.ex-9-img:hover {
+    filter: contrast(100%) sepia(100%);
+    border-radius: 15px;
+    transform: scale(1.5, 1.5);
+}
