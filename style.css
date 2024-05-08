@@ -27,7 +27,6 @@
     transition: 1s;
 }
 
-/*------------------*/
 .ex-5-square {
     margin: 20px;
     width: 60px;
@@ -57,8 +56,10 @@
     transition: all 2s;
 }
 
+/*------------------*/
 .ex-10-icon {
     font-size: 60px;
+    animation: circles 5s infinite;
 }
 
 .ex-11-icon {
