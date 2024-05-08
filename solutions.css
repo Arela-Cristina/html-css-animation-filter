@@ -41,8 +41,136 @@
     transform: scale(1.5, 1.5);
 }
 
-@keyframes circles {
+.ex-11-icon:hover {
+    animation: rotate 1s linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    75% {
+        transform: rotate(350deg)
+    }
+
     100% {
-        transform: rotate(360deg);
+        transform: rotate(0)
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: displace-top 1s linear;
+}
+
+@keyframes displace-top {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+
+    50% {
+        left: 68%;
+        top: -10px;
+    }
+
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: displace-bottom 1s linear;
+}
+
+@keyframes displace-bottom {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+
+    50% {
+        right: 68%;
+        bottom: -10px;
+    }
+
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: total-displace-top 3s linear;
+}
+
+@keyframes total-displace-top {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+
+    30% {
+        left: 90%;
+        top: -10px;
+    }
+
+    45% {
+        left: 90%;
+        top: 60px;
+    }
+
+    75% {
+        left: -10%;
+        top: 60px;
+    }
+
+    90% {
+        left: -10%;
+        top: -10px;
+    }
+
+    100% {
+        left: 10%;
+        top: -10%;
+    }
+
+}
+
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: total-displace-bottom 3s linear;
+}
+
+@keyframes total-displace-bottom {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+
+    30% {
+        right: 80%;
+        bottom: -10px;
+    }
+
+    45% {
+        right: 80%;
+        bottom: 60px;
+    }
+
+    75% {
+        right: -20%;
+        bottom: 60px;
+    }
+
+    90% {
+        right: -20%;
+        bottom: -10px;
+    }
+
+    100% {
+        right: 20%;
+        bottom: -10px;
     }
 }
